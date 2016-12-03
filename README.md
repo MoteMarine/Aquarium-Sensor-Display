@@ -1,36 +1,34 @@
-# aquarium-display
+# victor
+    Monitoring and controlling my garden from the web
 
+Victor is a collection of services that are accessed transparently through this
+Angular powered dashboard.
 
-![banner]()
+This site interacts with a separate API to facilitate authentication
+and gather the latest data points.
 
+Victor is still very much in development.
 
-[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)> A web application to display the data collected a sensor, which will be created by OT club students, in the Mote aquarium.
+# why
 
-TODO: Fill out this long description.
+Gardening is hard, and hydroponic gardens are even harder. This site is meant
+to make maintaining a hydroponic garden easier by taking measurements for you and
+remembering how values have changed over time.
 
-## Table of Contents
+If successful, Victor could be key in making soilless gardens accessible.
 
-- [Install](#install)
-- [Usage](#usage)
-- [Contribute](#contribute)
-- [License](#license)
+# installation
 
-## Install
+As it stands right now the site can be run locally by running these commands:
 
 ```
+bower install
+npm install
+gulp serve
 ```
 
-## Usage
-
-```
-```
-
-## Contribute
+I'm currently in the process of researching CI/CD options. Ideally the site will
+run encapsulated in a Docker container, which will be built and pushed to a
+public registry. At this time it seems that Heroku could be a very viable option.
 
 
-
-Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
-
-## License
-
-MIT © Mote Marine Laboratory
